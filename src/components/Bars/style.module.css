@@ -1,0 +1,21 @@
+.visualizer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 45px;
+  overflow: hidden;
+  width: 100%;
+  background-color: #fcfcfc0d;
+  padding: 12px 24px;
+  border-radius: 40px;
+  max-width: 500px;
+  margin-top: 32px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.bar {
+  width: 2px;
+  opacity: 0.25;
+  background-color: gray;
+  transition: all 0.5s ease-in-out;
+}

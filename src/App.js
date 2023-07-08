@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Play from "./components/PlayButton";
 import Pause from "./components/PauseButton";
 import { useState } from "react";
+import Bars from "./components/Bars";
 
 function App() {
   const [isPlay, setIsPlay] = useState(false);
@@ -19,6 +20,7 @@ function App() {
           <Play isPlay={isPlay} onClick={onClickHandler} />
         )}
       </div>
+      <Bars />
       
     </div>
   );
