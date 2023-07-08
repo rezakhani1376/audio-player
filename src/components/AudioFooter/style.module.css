@@ -1,0 +1,6 @@
+.information-container {
+  margin-top: 16px;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}

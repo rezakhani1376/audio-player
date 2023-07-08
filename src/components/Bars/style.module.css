@@ -1,4 +1,5 @@
 .visualizer-container {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,4 +19,11 @@
   opacity: 0.25;
   background-color: gray;
   transition: all 0.5s ease-in-out;
+}
+
+.progress {
+  box-sizing: border-box;
+  position: absolute;
+  width: calc(100% - 48px);
+  height: 100%;
 }
