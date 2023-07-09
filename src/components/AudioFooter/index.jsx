@@ -4,8 +4,8 @@ import classes from "./style.module.css";
 const AudioFooter = ({ currentTime, endTime }) => {
   return (
     <div className={classes["information-container"]}>
-      <div>{getTimeCodeFromNum(currentTime)}</div>
-      <div>{getTimeCodeFromNum(endTime)}</div>
+      <div>{currentTime ? getTimeCodeFromNum(currentTime): '0:00'}</div>
+      <div>{endTime ? getTimeCodeFromNum(endTime): '0:00'}</div>
     </div>
   );
 };
